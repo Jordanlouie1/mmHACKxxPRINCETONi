@@ -1,22 +1,18 @@
-name: at_chat_flutter_example
-description: Welcome to our SB Hacks workshop session! This app demonstrates how
-  to use the at_chat_flutter plugin.
-version: 0.0.1
-homepage: https://atsign.com/
-
-publish_to: 'none'
-
+name: chefcookbook
+description: An MVP for a chef's cookbook.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  at_chat_flutter: ^3.0.1
-  at_demo_data: ^1.0.0
-  at_onboarding_flutter: ^3.0.0
-  at_server_status: ^1.0.3
-  cupertino_icons: ^1.0.3
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.0
+  at_client_mobile: ^3.0.3
+  at_chat_flutter: ^3.0.1
+  at_server_status: ^1.0.3
+  at_onboarding_flutter: ^3.0.0
 
 dev_dependencies:
   flutter_test:

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../service/client_sdk_service.dart';
 import 'third_screen.dart';
 import '../utils/constants.dart';
-import 'package:at_chat_flutter_example/screens/first_screen.dart';
+import 'package:chefcookbook/screens/home_screen.dart';
 
 class SecondScreen extends StatefulWidget {
   static final String id = 'second';
@@ -65,7 +65,7 @@ class _SecondScreenState extends State<SecondScreen> {
                             onPressed: () async {
                               await ClientSdkService.getInstance().deleteAtSignFromKeyChain();
                               await Navigator.pushNamedAndRemoveUntil(
-                                  context, FirstScreen.id, (Route<dynamic> route) => false);
+                                  context, HomeScreen.id, (Route<dynamic> route) => false);
                             },
                             child: const Text('Yes'),
                           ),

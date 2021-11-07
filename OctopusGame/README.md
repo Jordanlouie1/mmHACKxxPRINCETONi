@@ -1,20 +1,7 @@
-<img src="https://atsign.dev/assets/img/@developersmall.png?sanitize=true">
+# at_cookbook
 
-### Now for a little internet optimism
-
-# at_chats
-
-This directory contains the complete and incomplete code for the @protocol messaging application. Feel free to use
-this for testing, debugging, or just trying out the app!
-
-## Demo
-
-<img src="https://raw.githubusercontent.com/atsign-foundation/at_demos/master/at_chats/assets/at_chats_demo.gif" width=300>
-
-A brief demo of this at_chats app. It currently offers one-to-one messaging!
+This is the complete version of the at_cookbook application. Feel free to use the code here as a starting template for your own projects.
 
 ## Getting Started
 
-1. Clone this project from the @ Company repository.
-
-2. To run the app, make sure to have your docker containers running!
+Clone this application from the `at_demos` repository. If you haven't used the `at_hello_world` app yet, we highly encourage you to check that out first. Make sure that your virtual environment (i.e. Docker containers) are running whenever you use an @protocol application.
