@@ -1,6 +1,7 @@
 import 'package:chefcookbook/screens/add_dish_screen.dart';
 import 'package:chefcookbook/screens/home_screen.dart';
 import 'package:chefcookbook/screens/other_screen.dart';
+import 'package:chefcookbook/screens/third_screen.dart';
 import 'package:chefcookbook/screens/welcome_screen.dart';
 import 'package:chefcookbook/screens/second_screen.dart';
 import 'package:flutter/material.dart';
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
         DishScreen.id: (BuildContext context) => DishScreen(),
         OtherScreen.id: (BuildContext context) => OtherScreen(),
         SecondScreen.id: (BuildContext context) => SecondScreen(),
+        ThirdScreen.id: (BuildContext context) => ThirdScreen(),
       },
     );
   }
