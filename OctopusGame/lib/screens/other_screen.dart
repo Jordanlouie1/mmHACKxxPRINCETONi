@@ -2,6 +2,7 @@ import 'package:at_client_mobile/at_client_mobile.dart';
 import 'package:at_commons/at_commons.dart';
 import 'package:chefcookbook/components/dish_widget.dart';
 import 'package:chefcookbook/constants.dart' as constant;
+import 'package:chefcookbook/screens/second_screen.dart';
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'dart:core';
@@ -83,7 +84,7 @@ class _OtherScreenState extends State<OtherScreen> {
                                   ),
                                   onPressed: () {
                                     Navigator.pushReplacementNamed(
-                                        context, HomeScreen.id);
+                                        context, SecondScreen.id);
                                   },
                                 ),
                                 const Text(
